@@ -11,7 +11,6 @@
 		4F02444828E74B590051B65E /* ASN1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02444528E74B590051B65E /* ASN1Parser.swift */; };
 		4F02444928E74B590051B65E /* LZSSDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02444628E74B590051B65E /* LZSSDecoder.swift */; };
 		4F02444A28E74B590051B65E /* ASN1Parser+IM4P.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02444728E74B590051B65E /* ASN1Parser+IM4P.swift */; };
-		4F11545228E8467A00B1385B /* deb_procurs.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4F11544C28E8467A00B1385B /* deb_procurs.tar */; };
 		4F3716AE27DBD7560016A03B /* signcert.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 4F3716AD27DBD7560016A03B /* signcert.p12 */; };
 		4F3716B027DBD9900016A03B /* ota.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3716AF27DBD9900016A03B /* ota.m */; };
 		4F437AB427DB9AC000BE9C7C /* sys_darwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F437AB227DB9AC000BE9C7C /* sys_darwin.c */; };
@@ -24,7 +23,6 @@
 		4F437AC427DBA3CE00BE9C7C /* binbag.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4F437ABF27DBA3B900BE9C7C /* binbag.tar */; };
 		4F437AC527DBA3CE00BE9C7C /* Bootstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 4F437AC027DBA3CB00BE9C7C /* Bootstrap.tar.gz */; };
 		4F437AC627DBA3CE00BE9C7C /* gzip.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4F437AC127DBA3CE00BE9C7C /* gzip.tar */; };
-		4F57F49B28E824B200969BCA /* bootstrap_procurs.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 4F57F49A28E824B200969BCA /* bootstrap_procurs.tar.gz */; };
 		4F65757626E1771700AC4716 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65757526E1771700AC4716 /* Device.swift */; };
 		8722909125D5BC41008E11FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8722909025D5BC41008E11FA /* Assets.xcassets */; };
 		8773B95D25EA2F640025E520 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8773B95C25EA2F640025E520 /* IOKit.framework */; };
@@ -147,7 +145,6 @@
 		4F02444528E74B590051B65E /* ASN1Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1Parser.swift; sourceTree = "<group>"; };
 		4F02444628E74B590051B65E /* LZSSDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZSSDecoder.swift; sourceTree = "<group>"; };
 		4F02444728E74B590051B65E /* ASN1Parser+IM4P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASN1Parser+IM4P.swift"; sourceTree = "<group>"; };
-		4F11544C28E8467A00B1385B /* deb_procurs.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = deb_procurs.tar; sourceTree = "<group>"; };
 		4F3716AD27DBD7560016A03B /* signcert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; name = signcert.p12; path = amfidebilitate/signcert.p12; sourceTree = SOURCE_ROOT; };
 		4F3716AF27DBD9900016A03B /* ota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ota.m; sourceTree = "<group>"; };
 		4F437AB227DB9AC000BE9C7C /* sys_darwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sys_darwin.c; sourceTree = "<group>"; };
@@ -161,7 +158,6 @@
 		4F437ABF27DBA3B900BE9C7C /* binbag.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = binbag.tar; sourceTree = "<group>"; };
 		4F437AC027DBA3CB00BE9C7C /* Bootstrap.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = Bootstrap.tar.gz; sourceTree = "<group>"; };
 		4F437AC127DBA3CE00BE9C7C /* gzip.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = gzip.tar; sourceTree = "<group>"; };
-		4F57F49A28E824B200969BCA /* bootstrap_procurs.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = bootstrap_procurs.tar.gz; sourceTree = "<group>"; };
 		4F65757526E1771700AC4716 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		8722908125D5BC40008E11FA /* Navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8722909025D5BC41008E11FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -356,8 +352,6 @@
 		F10E69CE25ECFEC300394109 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				4F11544C28E8467A00B1385B /* deb_procurs.tar */,
-				4F57F49A28E824B200969BCA /* bootstrap_procurs.tar.gz */,
 				4F437ABD27DBA38C00BE9C7C /* basebinaries.tar */,
 				4F437ABF27DBA3B900BE9C7C /* binbag.tar */,
 				4F437AC027DBA3CB00BE9C7C /* Bootstrap.tar.gz */,
@@ -643,11 +637,9 @@
 				4F437ABA27DBA37B00BE9C7C /* tar.gz in Resources */,
 				4F437AB827DBA36D00BE9C7C /* uicache.gz in Resources */,
 				4F437AC227DBA3CE00BE9C7C /* basebinaries.tar in Resources */,
-				4F57F49B28E824B200969BCA /* bootstrap_procurs.tar.gz in Resources */,
 				F17E74EA25FF2CCD008262A7 /* Main.storyboard in Resources */,
 				4F437AC327DBA3CE00BE9C7C /* deb.tar in Resources */,
 				F17E750F25FF2DD9008262A7 /* LaunchScreen.storyboard in Resources */,
-				4F11545228E8467A00B1385B /* deb_procurs.tar in Resources */,
 				4F437AB727DBA36D00BE9C7C /* uicache.tar in Resources */,
 				8722909125D5BC41008E11FA /* Assets.xcassets in Resources */,
 				4F437ABC27DBA38000BE9C7C /* Ldrestart.tar in Resources */,
@@ -889,7 +881,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Navi/resources",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoahuynh.navi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -920,7 +912,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Navi/resources",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoahuynh.navi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
